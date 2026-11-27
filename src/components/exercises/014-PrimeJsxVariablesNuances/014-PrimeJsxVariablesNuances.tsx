@@ -1,4 +1,13 @@
 function PrimeJsxVariablesNuances() {
-  return <div>014. PrimeJsxVariablesNuances</div>;
+  
+  const name = 'user';
+	const age  = '30';
+	
+	return <div>
+		name: {name}
+    ssssssss
+		age:  {age}
+	</div>;
+
 }
 export default PrimeJsxVariablesNuances;
